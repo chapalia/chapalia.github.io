@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/chapalia.github.io/static/css/main.562b4f55.css",
+    "main.js": "/chapalia.github.io/static/js/main.fafedf0d.js",
+    "static/media/fundoPropostas.png": "/chapalia.github.io/static/media/fundoPropostas.8d6347d1a6546485ef1a.png",
+    "static/media/bg6.jpg": "/chapalia.github.io/static/media/bg6.dc603b7416966b84ac68.jpg",
+    "static/media/bg1.jpg": "/chapalia.github.io/static/media/bg1.71a28027225b8ae945bb.jpg",
+    "static/media/bg11.jpg": "/chapalia.github.io/static/media/bg11.c6c21bd88aee67067eb6.jpg",
+    "static/media/bg4.jpg": "/chapalia.github.io/static/media/bg4.01ad1068585185f35555.jpg",
+    "static/media/revoredo.png": "/chapalia.github.io/static/media/revoredo.99e0491dc3bd0f63b42f.png",
+    "static/media/bg3.jpg": "/chapalia.github.io/static/media/bg3.850b808854f295b2c596.jpg",
+    "static/media/login.jpg": "/chapalia.github.io/static/media/login.ab931d77bfe905914456.jpg",
+    "static/media/bia.png": "/chapalia.github.io/static/media/bia.4c7e059958904afa699b.png",
+    "static/media/header.jpg": "/chapalia.github.io/static/media/header.8f6b61d6e1bed49abf82.jpg",
+    "static/media/bg7.jpg": "/chapalia.github.io/static/media/bg7.6249276d677cd6fd680e.jpg",
+    "static/media/raquel.png": "/chapalia.github.io/static/media/raquel.8f78b4785eb3c28898eb.png",
+    "static/media/bg5.jpg": "/chapalia.github.io/static/media/bg5.d60a95eb31d6400f802f.jpg",
+    "static/media/bg8.jpg": "/chapalia.github.io/static/media/bg8.2c89438b189a2a391f19.jpg",
+    "static/media/landing.jpg": "/chapalia.github.io/static/media/landing.6fa0380a8b02ebaadb6a.jpg",
+    "static/media/profile.jpg": "/chapalia.github.io/static/media/profile.5f3b8e69153598f8dd2a.jpg",
+    "static/media/victor.jpg": "/chapalia.github.io/static/media/victor.8659d68bfb4bb0c81d43.jpg",
+    "static/media/ryan.jpg": "/chapalia.github.io/static/media/ryan.ca24473bc1e6d20bf0d1.jpg",
+    "static/media/julie.jpg": "/chapalia.github.io/static/media/julie.00733edf41a7831227f2.jpg",
+    "static/media/giovanna.jpg": "/chapalia.github.io/static/media/giovanna.d8eaf118e58a16d6de58.jpg",
+    "static/media/Pablo.jpg": "/chapalia.github.io/static/media/Pablo.033d392159c51217c4da.jpg",
+    "static/media/marina.jpg": "/chapalia.github.io/static/media/marina.40a79dfa314bedbcc82e.jpg",
+    "static/media/nicole.jpg": "/chapalia.github.io/static/media/nicole.41ac3a0850002d27bc61.jpg",
+    "static/media/nucleo-outline.eot": "/chapalia.github.io/static/media/nucleo-outline.56814a6b7240045e1494.eot",
+    "static/media/nucleo-outline.ttf": "/chapalia.github.io/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
+    "static/media/gabriel.jpg": "/chapalia.github.io/static/media/gabriel.f982004476ceef311042.jpg",
+    "static/media/nucleo-outline.woff": "/chapalia.github.io/static/media/nucleo-outline.1a1036e643f97457ec5f.woff",
+    "static/media/nucleo-outline.woff2": "/chapalia.github.io/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
+    "index.html": "/chapalia.github.io/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.562b4f55.css",
+    "static/js/main.fafedf0d.js"
+  ]
+}
