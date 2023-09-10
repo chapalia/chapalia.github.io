@@ -21,7 +21,6 @@ root.render(
     <Routes>
       <Route path="/index" element={<Index />} />
 
-      <Route path="/nucleo-icons" element={<NucleoIcons />} />
       <Route path="/propostas" element={<Propostas />} />
 
       <Route path="*" element={<Navigate to="/index" replace />} />

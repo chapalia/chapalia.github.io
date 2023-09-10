@@ -41,7 +41,8 @@ function IndexHeader() {
               src={require("assets/img/now-logo.png")}
             ></img>  
             </div>
-            <h1 className="h1-seo">CHAPA LIA MEDEIROS</h1>
+            <h1 className="h1-seo" style={{marginBottom: "0"}}>CHAPA LIA MEDEIROS</h1>
+            <h4 style={{marginTop: "0", marginBottom: "50px"}}>CHAPA 01</h4>
             <h2>2023-2024</h2>
             <h3>DIRETÓRIO ACADÊMICO ADA LOVELACE</h3>
           </div>

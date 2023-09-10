@@ -56,7 +56,7 @@ function ExamplesNavbar() {
               href="/index"
               id="navbar-brand"
             >
-              Chapa Lia Medeiros
+              01 - Chapa Lia
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               Chapa independente pelo Diretório Acadêmico Ada Lovelace

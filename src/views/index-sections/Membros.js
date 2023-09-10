@@ -159,7 +159,7 @@ function Membros() {
               </Col>
             </Row>
           </div>
-          <Row style={{ marginTop: "10%" }}>
+          <Row id="section-motivacao" style={{ marginTop: "10%" }}>
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">O que queremos para o IMD?</h2>
               <h5 className="description">
@@ -192,7 +192,7 @@ function Membros() {
               </Col>
             </Row>
           </div>
-          <Row id="section-motivacao">
+          <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Qual a nossa missão? </h2>
               <h5 className="description">

@@ -58,7 +58,7 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Chapa Lia Medeiros
+              01 - Chapa Lia
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               Chapa independente pelo Diretório Acadêmico Ada Lovelace
@@ -125,7 +125,7 @@ function IndexNavbar() {
                   id="upgrade-to-pro"
                 >
                   <i className="now-ui-icons education_paper mr-1"></i>
-                  <p>Propostas</p>
+                  <p>PROPOSTAS</p>
                 </Button>
               </NavItem>
               <NavItem>
