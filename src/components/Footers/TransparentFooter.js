@@ -8,50 +8,34 @@ function TransparentFooter() {
   return (
     <footer className="footer">
       <Container>
-        <nav>
+      <nav>
           <ul>
             <li>
               <a
-                href="https://www.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
+                href="/index"
               >
-                Creative Tim
+                Página Inicial
               </a>
             </li>
             <li>
               <a
-                href="http://presentation.creative-tim.com?ref=nukr-transparent-footer"
+                href="https://www.instagram.com/chapa.lia"
                 target="_blank"
               >
-                About Us
+                Instagram
               </a>
             </li>
             <li>
               <a
-                href="http://blog.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
+                href="mailto:lia.medeiros.daal@gmail.com"
               >
-                Blog
+                E-mail
               </a>
             </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
-          <a
-            href="https://www.invisionapp.com?ref=nukr-transparent-footer"
-            target="_blank"
-          >
-            Invision
-          </a>
-          . Coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=nukr-transparent-footer"
-            target="_blank"
-          >
-            Creative Tim
-          </a>
-          .
+          Por um DAAL independente!
         </div>
       </Container>
     </footer>

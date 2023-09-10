@@ -25,61 +25,100 @@ function Tabs() {
       <div className="section section-tabs">
         <Container>
           <Row>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">Tabs with Icons on Card</p>
+            <Col style={{ flex: "auto", maxWidth: "100%" }} md="10" xl="6">
+              <p className="category">Propostas por diretoria</p>
               <Card>
                 <CardHeader>
                   <Nav className="justify-content-center" role="tablist" tabs>
                     <NavItem>
                       <NavLink
                         className={iconPills === "1" ? "active" : ""}
-                        href="#pablo"
+                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           setIconPills("1");
                         }}
                       >
-                        <i className="now-ui-icons objects_umbrella-13"></i>
-                        Home
+                        <i className="now-ui-icons objects_globe"></i>
+                        Geral
                       </NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink
                         className={iconPills === "2" ? "active" : ""}
-                        href="#pablo"
+                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           setIconPills("2");
                         }}
                       >
-                        <i className="now-ui-icons shopping_cart-simple"></i>
-                        Profile
+                        <i className="now-ui-icons education_agenda-bookmark"></i>
+                        Secretaria
                       </NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink
                         className={iconPills === "3" ? "active" : ""}
-                        href="#pablo"
+                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           setIconPills("3");
                         }}
                       >
-                        <i className="now-ui-icons shopping_shop"></i>
-                        Messages
+                        <i className="now-ui-icons business_money-coins"></i>
+                        Tesouraria
                       </NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink
                         className={iconPills === "4" ? "active" : ""}
-                        href="#pablo"
+                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           setIconPills("4");
                         }}
                       >
-                        <i className="now-ui-icons ui-2_settings-90"></i>
-                        Settings
+                        <i className="now-ui-icons education_hat"></i>
+                        Ensino
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink
+                        className={iconPills === "5" ? "active" : ""}
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setIconPills("5");
+                        }}
+                      >
+                        <i className="now-ui-icons media-1_camera-compact"></i>
+                        Comunicação
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink
+                        className={iconPills === "6" ? "active" : ""}
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setIconPills("6");
+                        }}
+                      >
+                        <i className="now-ui-icons emoticons_satisfied"></i>
+                        Mulheres e LGBTQIAP+
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink
+                        className={iconPills === "7" ? "active" : ""}
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setIconPills("7");
+                        }}
+                      >
+                        <i className="now-ui-icons sport_user-run"></i>
+                        Eventos e Lazer
                       </NavLink>
                     </NavItem>
                   </Nav>
@@ -90,168 +129,144 @@ function Tabs() {
                     activeTab={"iconPills" + iconPills}
                   >
                     <TabPane tabId="iconPills1">
+                      <h6>Ouvidoria</h6>
                       <p>
-                        I think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at. So when you get something that has
-                        the name Kanye West on it, it’s supposed to be pushing
-                        the furthest possibilities. I will be the leader of a
-                        company that ends up being worth billions of dollars,
-                        because I got the answers. I understand culture. I am
-                        the nucleus.
+                        Criar uma ouvidoria discente, para que sejam recebidas denúncias e relatos, visando assumir uma postura de proteção ao discente, apoiando-o e protegendo-o.
+                      </p>
+                      <h6>Oportunidades</h6>
+                      <p>
+                        Pleitear que os discentes tenham preferência nas vagas ofertadas pelo Metrópole Parque (antigo Inova).
+                      </p>
+                      <h6>Convivência</h6>
+                      <p>
+                        Pleitear um espaço de convivência/estudo coletivo para que os discentes tenham onde estudar e interagir em um espaço com infraestrutura de qualidade, com mesas, cadeiras, ar condicionado, computadores e lousa.
+                      </p>
+                      <h6>Conforto térmico</h6>
+                      <p>
+                        Mitigar o problema do conforto térmico, pleiteando a instalação de ventiladores, como os existentes no Metrópole Parque, nos demais andares.
+                      </p>
+                      <h6>Segurança</h6>
+                      <p>
+                        Defendemos a melhora na iluminação entre o IMD e o RU, principalmente em frente a residência, visando diminuir a sensação de insegurança que assola os discentes do noturno.
+                      </p>
+                      <h6>Portal do DAAL</h6>
+                      <p>
+                        Criação de um site oficial para o DAAL, pelo qual o estudante poderá acompanhar todas as prestações de contas da gestão, solicitações de turmas feitas pelos discentes e notas sobre ações do diretório acadêmico.
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills2">
+                      <h6>Revisão estatutária</h6>
                       <p>
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture. I am the nucleus. I think that’s a
-                        responsibility that I have, to push possibilities, to
-                        show people, this is the level that things could be at.
-                        I think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at.
+                        Revisão do estatuto do DAAL, visando modernizá-lo e adaptá-lo às necessidades atuais da comunidade discente;
+                      </p>
+                      <h6>Atividades Complementares do BTI</h6>
+                      <p>
+                        Pleiteamos a revisão da resolução de Atividades Complementares do BTI, uma das mais rígidas da UFRN, a fim de possibilitar que os alunos possam usufruir de uma diversidade maior de opções;
+                      </p>
+                      <h6>Participação no conselho do IMD e no colegiado do BTI</h6>
+                      <p>
+                        Participar de todas reuniões abertas da cúpula da gestão do IMD, visando sempre expor nosso ponto de vista, o ponto de vista discente.
+                      </p>
+                      <h6>CNPJ do DAAL</h6>
+                      <p>
+                        Estudar criação do CNPJ do DAAL e criar planejamento de registro da entidade no cartório.
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills3">
+                      <h6>Portal da transparência do DAAL</h6>
                       <p>
-                        I think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at. So when you get something that has
-                        the name Kanye West on it, it’s supposed to be pushing
-                        the furthest possibilities. I will be the leader of a
-                        company that ends up being worth billions of dollars,
-                        because I got the answers. I understand culture. I am
-                        the nucleus.
+                        Criar um portal da transparência do DAAL, para que a comunidade discente possa acompanhar e fiscalizar de perto como as verbas do diretório são utilizadas;
+                      </p>
+                      <h6>Vendas de produtos feitas pelo DAAL</h6>
+                      <p>
+                        Realizar vendas de camisas, canecas e garrafas, com intuito de gerar fundos ao DAAL. Com esses fundos a gestão pretende realizar eventos e políticas sociais;
+                      </p>
+                      <h6>Conta bancária exclusiva</h6>
+                      <p>
+                        Criação de uma conta bancária única e exclusiva para o DAAL.
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills4">
+                      <h6>Trabalho conjunto com a Diretoria de Ensino do IMD</h6>
                       <p>
-                        "I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture. I am the nucleus. I think that’s a
-                        responsibility that I have, to push possibilities, to
-                        show people, this is the level that things could be at."
+                        Trabalhar juntamente com a Diretoria de Ensino do IMD, principalmente nos início dos semestre, a fim de que as turmas ofertadas consigam suprir a demanda dos alunos, para isso, além do forms, sugerimos a verificação de quantos alunos passaram no componente anterior, como por exemplo, quantos passaram em ITP e levar isso em conta na hora de ofertar vagas de LP1;
+                      </p>
+                      <h6>Incentivar Ligas Acadêmicas</h6>
+                      <p>
+                        Incentivar e auxiliar na criação de ligas acadêmicas, como ocorrido em outras universidades, visando impulsionar a produção de conhecimento e ciência em nosso curso;
+                      </p>
+                      <h6>Alternativas de espaços e horários</h6>
+                      <p>
+                        Buscaremos alternativas e mais espaços de aula a fim de ampliar a oferta de disciplinas, como aproveitar mais do nPITI e horários que hoje são preteridos como M12, T56 e N34. Também acreditamos que as disciplinas EaD deveriam se concentrar justamente nesses horários com menos demanda, abrindo assim mais possibilidades para a comunidade discente na hora de montar a grade do semestre.
+                      </p>
+                    </TabPane>
+                    <TabPane tabId="iconPills5">
+                      <h6>Comunidade no Whatsapp</h6>
+                      <p>
+                        Criar um canal de comunicação entre o DAAL e os discentes do IMD, para isso será criada uma comunidade no Whatsapp, onde serão disponibilizados enquetes, notícias importantes e divulgadas oportunidades;
+                      </p>
+                      <h6>Fortalecimento das redes sociais do DAAL</h6>
+                      <p>
+                        Fortalecimento das redes sociais do DAAL, com posts frequentes e maior interação entre DAAL e discentes;
+                      </p>
+                      <h6>Quadro de feedbacks sobre as disciplinas</h6>
+                      <p>
+                        Criação do quadro "O que você pagou? O que você achou?", onde discentes que pagaram X componente com Y professor, digam o que acharam, a fim de fornecer um entendimento melhor sobre as disciplinas do ponto de vista discente;
+                      </p>
+                      <h6>Redes sociais com transparência</h6>
+                      <p>
+                        Utilizar as redes sociais do DAAL como meio de comunicação para transparentemente demonstrar as ações e iniciativas da gestão, com o objetivo de prestar contas à comunidade discente sobre as atividades em andamento.
+                      </p>
+                    </TabPane>
+                    <TabPane tabId="iconPills6">
+                      <h6>Encontro bimestrais do grupo de mulheres</h6>
+                      <p>
+                        Realizar encontros bimestrais do grupo de mulheres, visando fortalecer os laços entre as discentes, onde também seria discutido formas de aumentar a qualidade de vida das mulheres dentro do IMD;
+                      </p>
+                      <h6>Caixinhas com absorventes nos banheiros femininios do IMD</h6>
+                      <p>
+                        Disponibilizar caixinhas com absorventes nos banheiros do IMD no formato "deixe quando puder e pegue quando precisar", visando assegurar o direito a dignidade menstrual;
+                      </p>
+                      <h6>Ações com meninas interessadas em entrar no IMD</h6>
+                      <p>
+                        Realizar ações com meninas interessadas a ingressar no IMD, como rodas de conversa, visando aumentar a presença feminina nos cursos;
+                      </p>
+                      <h6>Realizar encontros bimestrais do grupo LGBTQIAP+</h6>
+                      <p>
+                        Realizar encontros bimestrais do grupo LGBTQIAP+, visando fortalecer os laços entre os(as) discentes, onde também seria discutido formas de aumentar a qualidade de vida da comunidade dentro do IMD;
+                      </p>
+                      <h6>Apoiar e encaminhar denuncias recebidas através da ouvidoria do IMD</h6>
+                      <p>
+                        Disponibilizar a ouvidoria do DAAL para recebimento e acolhimento, de denúncias relacionadas a LGBTFOBIA e machismo no IMD.
+                      </p>
+                    </TabPane>
+                    <TabPane tabId="iconPills7">
+                      <h6>Hackathon do IMD</h6>
+                      <p>
+                        Realização de uma Hackathon anual entre os discentes do IMD;
+                      </p>
+                      <h6>Update</h6>
+                      <p>
+                        Realização do evento anual do DAAL, o Update, em novo formato, visando abranger o máximo de discentes possíveis;
+                      </p>
+                      <h6>Semana de integração com os calouros</h6>
+                      <p>
+                        Realização da semana de integração com os calouros, onde ocorreriam gincanas, palestras, coffee break, orientações e explicações sobre PES, 2º ciclo e ênfase;
+                      </p>
+                      <h6>Semana de orientação profissional</h6>
+                      <p>
+                        Realização da semana de orientação profissional, explicando as áreas da TI além do desenvolvimento web, com participação de ex-discentes do IMD que atuam em diversas áreas da TI, visando dar um norte aos que desejam seguir por aquele caminho.
+                      </p>
+                      <h6>Cine IMD</h6>
+                      <p>
+                        Exibição de filmes relacionados a TI ou temas relevantes, com venda de pipoca, suco e etc.
                       </p>
                     </TabPane>
                   </TabContent>
                 </CardBody>
               </Card>
             </Col>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">Tabs with Background on Card</p>
-              <Card>
-                <CardHeader>
-                  <Nav
-                    className="nav-tabs-neutral justify-content-center"
-                    data-background-color="blue"
-                    role="tablist"
-                    tabs
-                  >
-                    <NavItem>
-                      <NavLink
-                        className={pills === "1" ? "active" : ""}
-                        href="#pablo"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("1");
-                        }}
-                      >
-                        Home
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={pills === "2" ? "active" : ""}
-                        href="#pablo"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("2");
-                        }}
-                      >
-                        Profile
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={pills === "3" ? "active" : ""}
-                        href="#pablo"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("3");
-                        }}
-                      >
-                        Messages
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
-                        className={pills === "4" ? "active" : ""}
-                        href="#pablo"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("4");
-                        }}
-                      >
-                        Settings
-                      </NavLink>
-                    </NavItem>
-                  </Nav>
-                </CardHeader>
-                <CardBody>
-                  <TabContent
-                    className="text-center"
-                    activeTab={"pills" + pills}
-                  >
-                    <TabPane tabId="pills1">
-                      <p>
-                        I think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at. So when you get something that has
-                        the name Kanye West on it, it’s supposed to be pushing
-                        the furthest possibilities. I will be the leader of a
-                        company that ends up being worth billions of dollars,
-                        because I got the answers. I understand culture. I am
-                        the nucleus.
-                      </p>
-                    </TabPane>
-                    <TabPane tabId="pills2">
-                      <p>
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture. I am the nucleus. I think that’s a
-                        responsibility that I have, to push possibilities, to
-                        show people, this is the level that things could be at.
-                        I think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at.
-                      </p>
-                    </TabPane>
-                    <TabPane tabId="pills3">
-                      <p>
-                        I think that’s a responsibility that I have, to push
-                        possibilities, to show people, this is the level that
-                        things could be at. So when you get something that has
-                        the name Kanye West on it, it’s supposed to be pushing
-                        the furthest possibilities. I will be the leader of a
-                        company that ends up being worth billions of dollars,
-                        because I got the answers. I understand culture. I am
-                        the nucleus.
-                      </p>
-                    </TabPane>
-                    <TabPane tabId="pills4">
-                      <p>
-                        "I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture. I am the nucleus. I think that’s a
-                        responsibility that I have, to push possibilities, to
-                        show people, this is the level that things could be at."
-                      </p>
-                    </TabPane>
-                  </TabContent>
-                </CardBody>
-              </Card>
-            </Col>
+
           </Row>
         </Container>
       </div>

@@ -94,6 +94,18 @@ function ExamplesNavbar() {
                   Nos siga no Instagram!
                 </UncontrolledTooltip>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="mailto:lia.medeiros.daal@gmail.com"
+                  id="ui-1_email-85"
+                >
+                  <i className="now-ui-icons ui-1_email-85"></i>
+                  <p className="d-lg-none d-xl-none">E-mail</p>
+                </NavLink>
+                <UncontrolledTooltip target="#ui-1_email-85">
+                  Mande um e-mail para a gente!
+                </UncontrolledTooltip>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>

@@ -28,10 +28,17 @@ function DefaultFooter() {
                 Instagram
               </a>
             </li>
+            <li>
+              <a
+                href="mailto:lia.medeiros.daal@gmail.com"
+              >
+                E-mail
+              </a>
+            </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          Por um DAAL independente! Da base pela base!
+          Por um DAAL independente!
         </div>
       </Container>
       </footer>

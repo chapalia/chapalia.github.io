@@ -3140,8 +3140,7 @@ p {
 .description,
 .card-description,
 .footer-big p {
-  color: #9a9a9a;
-  font-weight: 300;
+  color: #5e5e5e;
 }
 .category {
   text-transform: capitalize;

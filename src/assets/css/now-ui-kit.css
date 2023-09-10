@@ -3479,8 +3479,7 @@ p {
 .description,
 .card-description,
 .footer-big p {
-  color: #9a9a9a;
-  font-weight: 300;
+  color: #646464;
 }
 
 .category {
@@ -3488,7 +3487,11 @@ p {
   font-weight: 700;
   color: #9a9a9a;
 }
-
+hr {
+  border: none;
+  border-top: 2px solid #000; /* Cor e espessura da linha */
+  margin: 10px 0; /* Espaçamento acima e abaixo da linha */
+}
 .text-primary {
   color: #f96332 !important;
 }

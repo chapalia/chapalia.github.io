@@ -101,6 +101,23 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink
+                  href="#section-team"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    let element = document
+                      .getElementById("section-motivacao");
+                      element.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    })
+                  }}
+                >
+                  <i className="now-ui-icons business_bulb-63"></i>
+                  <p>Motivação</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <Button
                   className="nav-link btn-neutral"
                   color="info"
@@ -122,6 +139,18 @@ function IndexNavbar() {
                 </NavLink>
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Nos siga no Instagram!
+                </UncontrolledTooltip>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="mailto:lia.medeiros.daal@gmail.com"
+                  id="ui-1_email-85"
+                >
+                  <i className="now-ui-icons ui-1_email-85"></i>
+                  <p className="d-lg-none d-xl-none">E-mail</p>
+                </NavLink>
+                <UncontrolledTooltip target="#ui-1_email-85">
+                  Mande um e-mail para a gente!
                 </UncontrolledTooltip>
               </NavItem>
             </Nav>

@@ -18,7 +18,7 @@ function Download() {
             <Col className="text-center" lg="8" md="12">
               <h3 className="title">Gostaria de conhecer as nossas propostas?</h3>
               <h5 className="description">
-                Nós da Chapa Lia Medeiros nos comprometemos com a luta dos alunos do Instituto Metrópole Digital! Pensando nisso, preparamos um conjunto de propostas que misturam a reinvidicação estudantil articulção politica dentro do instituto.
+                Nós da Chapa Lia Medeiros nos comprometemos com a luta dos alunos do Instituto Metrópole Digital! Pensando nisso, preparamos um conjunto de propostas que misturam a reinvidicação estudantil e articulação politica dentro do instituto.
               </h5>
             </Col>
             <Col className="text-center" lg="8" md="12">
