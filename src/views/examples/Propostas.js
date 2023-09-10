@@ -113,6 +113,7 @@ function Propostas() {
                     Enviar Mensagem
                   </Button>
                 </div>
+                <a style={{color: "gray"}} href="https://forms.gle/thJvtPfnqrg5WX5L9" target="_blank">Não quero me identificar</a>
               </Col>
             </Row>
           </Container>

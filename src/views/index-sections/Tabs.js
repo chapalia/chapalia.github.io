@@ -121,6 +121,18 @@ function Tabs() {
                         Eventos e Lazer
                       </NavLink>
                     </NavItem>
+                    <NavItem>
+                      <NavLink
+                        style={{cursor: "pointer"}}
+                        onClick={(e) => {
+                          document.getElementById("download-button").click();
+                        }}
+                      >
+                        <a id="download-button" style={{display: "none"}} href="/Propostas.pdf" target="_blank" download="Chapa Lia - Propostas"></a>
+                        <i className="now-ui-icons arrows-1_cloud-download-93"></i>
+                        Download
+                      </NavLink>
+                    </NavItem>
                   </Nav>
                 </CardHeader>
                 <CardBody>
@@ -131,7 +143,7 @@ function Tabs() {
                     <TabPane tabId="iconPills1">
                       <h6>Ouvidoria</h6>
                       <p>
-                        Criar uma ouvidoria discente, para que sejam recebidas denúncias e relatos, visando assumir uma postura de proteção ao discente, apoiando-o e protegendo-o.
+                        Criar uma ouvidoria discente, para que sejam recebidos denúncias e relatos, visando assumir uma postura de proteção ao discente, apoiando-o e protegendo-o.
                       </p>
                       <h6>Oportunidades</h6>
                       <p>
@@ -139,7 +151,7 @@ function Tabs() {
                       </p>
                       <h6>Convivência</h6>
                       <p>
-                        Pleitear um espaço de convivência/estudo coletivo para que os discentes tenham onde estudar e interagir em um espaço com infraestrutura de qualidade, com mesas, cadeiras, ar condicionado, computadores e lousa.
+                        Pleitear um espaço de convivência/estudo coletivo para que os discentes tenham onde estudar e interagir em um espaço com infraestrutura de qualidade, com mesas, cadeiras, ar-condicionado, computadores e lousa.
                       </p>
                       <h6>Conforto térmico</h6>
                       <p>
@@ -157,15 +169,15 @@ function Tabs() {
                     <TabPane tabId="iconPills2">
                       <h6>Revisão estatutária</h6>
                       <p>
-                        Revisão do estatuto do DAAL, visando modernizá-lo e adaptá-lo às necessidades atuais da comunidade discente;
+                        Revisão do estatuto do DAAL, visando modernizá-lo e adaptá-lo às necessidades atuais da comunidade discente.
                       </p>
                       <h6>Atividades Complementares do BTI</h6>
                       <p>
-                        Pleiteamos a revisão da resolução de Atividades Complementares do BTI, uma das mais rígidas da UFRN, a fim de possibilitar que os alunos possam usufruir de uma diversidade maior de opções;
+                        Pleiteamos a revisão da resolução de Atividades Complementares do BTI, uma das mais rígidas da UFRN, a fim de possibilitar que os alunos possam usufruir de uma diversidade maior de opções.
                       </p>
                       <h6>Participação no conselho do IMD e no colegiado do BTI</h6>
                       <p>
-                        Participar de todas reuniões abertas da cúpula da gestão do IMD, visando sempre expor nosso ponto de vista, o ponto de vista discente.
+                        Participar de todas as reuniões abertas da cúpula da gestão do IMD, visando sempre expor nosso ponto de vista, o ponto de vista discente.
                       </p>
                       <h6>CNPJ do DAAL</h6>
                       <p>
@@ -175,11 +187,11 @@ function Tabs() {
                     <TabPane tabId="iconPills3">
                       <h6>Portal da transparência do DAAL</h6>
                       <p>
-                        Criar um portal da transparência do DAAL, para que a comunidade discente possa acompanhar e fiscalizar de perto como as verbas do diretório são utilizadas;
+                        Criar um portal da transparência do DAAL, para que a comunidade discente possa acompanhar e fiscalizar de perto como as verbas do diretório são utilizadas.
                       </p>
                       <h6>Vendas de produtos feitas pelo DAAL</h6>
                       <p>
-                        Realizar vendas de camisas, canecas e garrafas, com intuito de gerar fundos ao DAAL. Com esses fundos a gestão pretende realizar eventos e políticas sociais;
+                        Realizar vendas de camisas, canecas e garrafas, com intuito de gerar fundos ao DAAL. Com esses fundos a gestão pretende realizar eventos e políticas sociais.
                       </p>
                       <h6>Conta bancária exclusiva</h6>
                       <p>
@@ -189,11 +201,11 @@ function Tabs() {
                     <TabPane tabId="iconPills4">
                       <h6>Trabalho conjunto com a Diretoria de Ensino do IMD</h6>
                       <p>
-                        Trabalhar juntamente com a Diretoria de Ensino do IMD, principalmente nos início dos semestre, a fim de que as turmas ofertadas consigam suprir a demanda dos alunos, para isso, além do forms, sugerimos a verificação de quantos alunos passaram no componente anterior, como por exemplo, quantos passaram em ITP e levar isso em conta na hora de ofertar vagas de LP1;
+                        Trabalhar juntamente com a Diretoria de Ensino do IMD, principalmente nos inícios dos semestres, a fim de que as turmas ofertadas consigam suprir a demanda dos alunos, para isso, além do forms, sugerimos a verificação de quantos alunos passaram no componente anterior, como por exemplo, quantos passaram em ITP e levar isso em conta na hora de ofertar vagas de LP1.
                       </p>
                       <h6>Incentivar Ligas Acadêmicas</h6>
                       <p>
-                        Incentivar e auxiliar na criação de ligas acadêmicas, como ocorrido em outras universidades, visando impulsionar a produção de conhecimento e ciência em nosso curso;
+                        Incentivar e auxiliar na criação de ligas acadêmicas, como ocorrido em outras universidades, visando impulsionar a produção de conhecimento e ciência em nosso curso.
                       </p>
                       <h6>Alternativas de espaços e horários</h6>
                       <p>
@@ -201,17 +213,17 @@ function Tabs() {
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills5">
-                      <h6>Comunidade no Whatsapp</h6>
+                      <h6>Comunidade no WhatsApp</h6>
                       <p>
-                        Criar um canal de comunicação entre o DAAL e os discentes do IMD, para isso será criada uma comunidade no Whatsapp, onde serão disponibilizados enquetes, notícias importantes e divulgadas oportunidades;
+                        Criar um canal de comunicação entre o DAAL e os discentes do IMD, para isso será criada uma comunidade no Whatsapp, onde serão disponibilizadas enquetes, notícias importantes e divulgadas oportunidades.
                       </p>
                       <h6>Fortalecimento das redes sociais do DAAL</h6>
                       <p>
-                        Fortalecimento das redes sociais do DAAL, com posts frequentes e maior interação entre DAAL e discentes;
+                        Fortalecimento das redes sociais do DAAL, com posts frequentes e maior interação entre DAAL e discentes.
                       </p>
                       <h6>Quadro de feedbacks sobre as disciplinas</h6>
                       <p>
-                        Criação do quadro "O que você pagou? O que você achou?", onde discentes que pagaram X componente com Y professor, digam o que acharam, a fim de fornecer um entendimento melhor sobre as disciplinas do ponto de vista discente;
+                        Criação do quadro "O que você pagou? O que você achou?", onde discentes que pagaram X componente com Y professor, digam o que acharam, a fim de fornecer um entendimento melhor sobre as disciplinas do ponto de vista discente.
                       </p>
                       <h6>Redes sociais com transparência</h6>
                       <p>
@@ -221,19 +233,19 @@ function Tabs() {
                     <TabPane tabId="iconPills6">
                       <h6>Encontro bimestrais do grupo de mulheres</h6>
                       <p>
-                        Realizar encontros bimestrais do grupo de mulheres, visando fortalecer os laços entre as discentes, onde também seria discutido formas de aumentar a qualidade de vida das mulheres dentro do IMD;
+                        Realizar encontros bimestrais do grupo de mulheres, visando fortalecer os laços entre as discentes, onde também seria discutido formas de aumentar a qualidade de vida das mulheres dentro do IMD.
                       </p>
                       <h6>Caixinhas com absorventes nos banheiros femininios do IMD</h6>
                       <p>
-                        Disponibilizar caixinhas com absorventes nos banheiros do IMD no formato "deixe quando puder e pegue quando precisar", visando assegurar o direito a dignidade menstrual;
+                        Disponibilizar caixinhas com absorventes nos banheiros do IMD no formato "deixe quando puder e pegue quando precisar", visando assegurar o direito a dignidade menstrual.
                       </p>
                       <h6>Ações com meninas interessadas em entrar no IMD</h6>
                       <p>
-                        Realizar ações com meninas interessadas a ingressar no IMD, como rodas de conversa, visando aumentar a presença feminina nos cursos;
+                        Realizar ações com meninas interessadas a ingressar no IMD, como rodas de conversa, visando aumentar a presença feminina nos cursos.
                       </p>
                       <h6>Realizar encontros bimestrais do grupo LGBTQIAP+</h6>
                       <p>
-                        Realizar encontros bimestrais do grupo LGBTQIAP+, visando fortalecer os laços entre os(as) discentes, onde também seria discutido formas de aumentar a qualidade de vida da comunidade dentro do IMD;
+                        Realizar encontros bimestrais do grupo LGBTQIAP+, visando fortalecer os laços entre os(as) discentes, onde também seria discutido formas de aumentar a qualidade de vida da comunidade dentro do IMD.
                       </p>
                       <h6>Apoiar e encaminhar denuncias recebidas através da ouvidoria do IMD</h6>
                       <p>
@@ -243,23 +255,23 @@ function Tabs() {
                     <TabPane tabId="iconPills7">
                       <h6>Hackathon do IMD</h6>
                       <p>
-                        Realização de uma Hackathon anual entre os discentes do IMD;
+                        Realização de uma Hackathon anual entre os discentes do IMD.
                       </p>
                       <h6>Update</h6>
                       <p>
-                        Realização do evento anual do DAAL, o Update, em novo formato, visando abranger o máximo de discentes possíveis;
+                        Realização do evento anual do DAAL, o Update, em novo formato, visando abranger o máximo de discentes possíveis.
                       </p>
                       <h6>Semana de integração com os calouros</h6>
                       <p>
-                        Realização da semana de integração com os calouros, onde ocorreriam gincanas, palestras, coffee break, orientações e explicações sobre PES, 2º ciclo e ênfase;
+                        Realização da semana de integração com os calouros, onde ocorreriam gincanas, palestras, coffee break, orientações e explicações sobre PES, 2º ciclo e ênfase.
                       </p>
                       <h6>Semana de orientação profissional</h6>
                       <p>
-                        Realização da semana de orientação profissional, explicando as áreas da TI além do desenvolvimento web, com participação de ex-discentes do IMD que atuam em diversas áreas da TI, visando dar um norte aos que desejam seguir por aquele caminho.
+                        Realização da semana de orientação profissional, explicando as áreas da TI além do desenvolvimento web, com participação de egressos do IMD que atuam em diversas áreas da TI, visando dar um norte aos que desejam seguir por aquele caminho.
                       </p>
                       <h6>Cine IMD</h6>
                       <p>
-                        Exibição de filmes relacionados a TI ou temas relevantes, com venda de pipoca, suco e etc.
+                        Exibição de filmes relacionados a TI ou temas relevantes, com venda de pipoca, suco etc.
                       </p>
                     </TabPane>
                   </TabContent>

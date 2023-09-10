@@ -25,11 +25,14 @@ function Download() {
               <Button
                 className="btn-round mr-1"
                 color="info"
-                href="#"
                 role="button"
                 size="lg"
+                onClick={() => {
+                  document.getElementById("download-button").click();
+                }}
               >
                 Baixar propostas em PDF
+                <a id="download-button" style={{display: "none"}} href="/Propostas.pdf" target="_blank" download="Chapa Lia - Propostas"></a>
               </Button>
               <Button
                 className="btn-round"
